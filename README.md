@@ -2,11 +2,8 @@
 
 int main()
 {
-    int num[5]={11,22,33,44,55};
-    for(int i=0;i<5;i++){
-        printf("%d \n",num[i]);
-    } 
-    printf("%d \n",num[2]);
-    
-    return 0;
+    int a=22,b=4;
+    printf("max=%d\n",((a+b)+abs(a-b)/2));
+    printf("min=%d\n",((a+b)-abs(a-b)/2));
+    return 0;
 }
